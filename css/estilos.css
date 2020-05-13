@@ -1,0 +1,38 @@
+body{
+    background-image:
+       url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=1430&q=80');
+    background-size:auto 100vh;
+    font-family:arial;
+    height: 100vh;
+    }
+  a{ 
+    color: teal;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline
+  }
+  .menu{
+    background-color:white;
+  }
+  .menu li{
+    list-style:none;
+  }
+  .menu ul{
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color:whitesmoke;
+    text-align:center;
+  }
+  
+  .site-subtitle{
+    font-style:italic;
+  }
+  
+  ul{
+    background-color:  ;
+  }
