@@ -2,21 +2,101 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerson Alcaraz Gamis</title>
+    
+    <title>Gerson Alcaraz</title>
     <link rel="stylesheet" href="css\estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--
+    font-family: 'Italianno', cursive;
+    font-family: 'Roboto Mono', monospace;
+    -->
+    <script 
+      src="https://kit.fontawesome.com/bcdbf40b8e.js" crossorigin="anonymous">
+    </script>
 </head>
+
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#home"><i class="fas fa-home"></i> </a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <h1 class="site-title">Gerson Alcaraz Gamis</h1>
-        <h2 class="site-subtitle">Aprendiz</h2>
+        
+        <div class="titulo">
+          <h1 class="site-title" id="home">Gerson Alcaraz</h1>
+          <h2 class="site-subtitle">Aprendiz de Mim {nível 01}</h2>
+        </div>
     </header>
+    
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+      <figure class="avatar" >
+        <img src="https://pbs.twimg.com/profile_images/1252234937224196097/QsmC4ADJ_400x400.jpg" alt="Gerson Alcaraz">
+      </figure>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dicta omnis neque, incidunt eius officiis soluta numquam quas ipsum molestiae vero, perferendis illum consequuntur aspernatur adipisci iure nisi. Voluptas, porro.
+      </p>
+      <p>
+        Quos, nobis fugiat. Laborum nobis optio provident consequatur odio similique debitis quia unde architecto excepturi totam harum, voluptate, doloribus suscipit nesciunt iure ab sit dolores amet officiis, quisquam aperiam. Iure!
+      </p>
+      <p>
+        Nulla nam perferendis sunt amet obcaecati laborum numquam odit porro a reprehenderit sequi optio voluptatum error exercitationem reiciendis vitae inventore, alias accusantium velit! Velit soluta debitis, consectetur doloremque aspernatur animi!
+      </p>
+      
+      <p>
+        Veritatis, architecto ducimus odit nesciunt explicabo quod ut eius necessitatibus adipisci nobis, ipsam aliquid magni nisi quas, est provident repellendus. Laboriosam aliquid, adipisci deserunt numquam voluptatem magnam odio beatae magni.
+      </p>
+
+      <p>
+        Este site fi construído durante a <a href="https://www.alura.com.br/imersao-css">imesão CSS da Alura.</a>
+      </p>
+    </section>
+    
+    <section class="portifolio container" id="portfolio">
+      <h2>Portfólio</h2>
+      <div class="grid">
+        <figure>
+          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          <figcaption>eCommerce</figcaption>
+        </figure>
+      
+        <figure>
+          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+          <figcaption>Mobile</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          <figcaption>Web design</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+          <figcaption>Projetos pessoais</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/vanessametonini">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/vanessametonini">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/vanessametonini">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:vanessa.tonini@caelum.com.br">
+          <i class="fas fa-at"></i>
+        </a>
+      </div>
+    </section>
 </body>
 </html>
